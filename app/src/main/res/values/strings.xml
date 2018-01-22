@@ -1,9 +1,10 @@
 <resources>
     <string name="app_name">My Application</string>
 
-    <string name="hint_email_phone">Email and phone</string>
+    <string name="hint_email_phone">Email or Phone</string>
     <string name="hint_pass">Password</string>
-    <string name="text_login">Log in</string>
-    <string name="text_sign_up"><u>Sign up for Facebook</u></string>
-
+    <string name="text_login">Log In</string>
+    <string name="text_login_gmail">Sign In with Gmail</string>
+    <string name="text_sign_up"><u>Sign Up for Facebook</u></string>
+    <string name="text_dauhoi"> ? </string>
 </resources>

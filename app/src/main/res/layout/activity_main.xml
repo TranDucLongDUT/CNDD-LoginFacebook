@@ -58,7 +58,7 @@
         android:layout_below="@+id/edt_pass"
         android:layout_marginLeft="@dimen/edt_margin_left"
         android:layout_marginRight="@dimen/edt_margin_right"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="@dimen/edt_margin_top"
         android:background="@drawable/shape_button_login"
         android:text="@string/text_login"
         android:textAllCaps="false"
@@ -79,5 +79,35 @@
         android:text="@string/text_sign_up"
         android:textSize="@dimen/text_size_small"
         />
+    <Button
+        android:id="@+id/btn_dauhoi"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+       android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/edt_margin_bottom"
+        android:layout_marginRight="@dimen/edt_margin_right"
+        android:background="@drawable/shape_button_login"
+        android:text="@string/text_dauhoi"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_large"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btn_sign_in_gmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_login"
+        android:layout_marginLeft="@dimen/edt_margin_left"
+        android:layout_marginRight="@dimen/edt_margin_right"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/shape_button_gmail"
+        android:text="@string/text_login_gmail"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_large"
+        android:textStyle="bold" />
 
 </RelativeLayout>
